@@ -4,7 +4,6 @@ session_start();
 
 require 'classes/Database.php';
 require 'classes/User.php';
-require 'classes/Encryption.php';
 
 $db = new Database();
 
